@@ -54,6 +54,9 @@ python patch.py verify --src ..\EXVS2OB.exe --patched ..\EXVS2OB_en.exe
 python patch.py scan   --exe ..\EXVS2OB.exe --out scan.json
 ```
 
+On Windows you can also just double-click **`make_english.bat`**, which runs patch and
+verify in sequence.
+
 `patch` exits with code 1 when something is missing or a translation does not fit,
 so it can be used in CI.
 
