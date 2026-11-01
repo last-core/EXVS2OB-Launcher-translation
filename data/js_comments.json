@@ -1,0 +1,16 @@
+{
+ "description": "CJK runs inside the injected wiki-viewer JavaScript (comments only).",
+ "comments": {
+  "。直接作用于": ". on ",
+  "向全局": "to ",
+  "处理折叠展开功能（": "toggle(",
+  "标签，无视有没有": " tag,no ",
+  "注入": "in",
+  "移除可能存在的目录组件": "drop TOC",
+  "统一将表格的表头和单元格字体改小": "thin tbl fonts",
+  "获取主要内容节点（优先": "main node (",
+  "隐藏可能存在的导航栏、边栏或页脚": "hide nav/side/ft",
+  "）": ")",
+  "，没有则回退到": " else->"
+ }
+}
